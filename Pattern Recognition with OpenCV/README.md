@@ -38,6 +38,30 @@ d. Repeat for All Pixels: Slide the filter over the entire image, pixel by pixel
 Result:
 After applying the Gaussian filter, the salt and pepper noise will be reduced, and the image will appear smoother. However, some fine details might also be slightly blurred due to the filtering process.
 
+**Implementation:**
+!pip install opencv-python
+
+from google.colab import files
+import cv2
+import numpy as np
+from matplotlib import pyplot as plt
+
+# Upload the 'screenshot.jpg' image to your Colab environment
+uploaded = files.upload()
+
+# Read the uploaded image using OpenCV
+img = cv2.imread(next(iter(uploaded)), cv2.IMREAD_GRAYSCALE)
+
+# Display the original image:
+from google.colab.patches import cv2_imshow
+cv2_imshow(img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+
+
+
+
 
 **Presentation Link:**
 [Pattern Recognition with OpenCV](https://docs.google.com/presentation/d/1DJ9uKgSjfBMHG-bX82cLwUOQYm6O40wSChepEhOr2Wk/edit?usp=sharing)
