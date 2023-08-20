@@ -1,5 +1,8 @@
 **Overview:**
-The problem statement is for Pattern Recognition - using image processing library OpenCV.
+
+Pattern Recognition - using image processing library OpenCV.
+The problem statement is to recognize the patterns in an image file
+
 Pattern recognition is a process in which a system or algorithm identifies and classifies patterns within data. In the context of image processing, pattern recognition involves identifying specific features or objects within an image based on certain criteria. Let's break down the steps involved in pattern recognition using the given scenario:
 
 Gray-level Image and Object Digitization:
