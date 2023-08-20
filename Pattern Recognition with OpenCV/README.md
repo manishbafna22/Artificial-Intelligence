@@ -57,6 +57,8 @@ from google.colab.patches import cv2_imshow
 cv2_imshow(img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+![image](https://github.com/manishbafna22/Artificial-Intelligence/assets/115042164/bee1b152-63a3-4261-a814-b74cfc67fc64)
+
 
 
 
